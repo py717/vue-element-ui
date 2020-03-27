@@ -7,31 +7,20 @@
 ```bash
 git clone https://github.com/wayejs/waye-pro.git project-xxx
 cd project-xxx
-git remote remove origin
-git remote add origin [新的git仓库链接]
-git push -u origin master
-yarn install
+npm  i
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn run serve
+npm run serve
 ```
 
 ### Compiles and minifies for production
 ```
-yarn run build
+npm run build
 ```
 
 ### Run your tests
 ```
-yarn run test
+npm run test
 ```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
